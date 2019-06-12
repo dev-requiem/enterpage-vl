@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+@import "https://use.fontawesome.com/releases/v5.4.2/css/all.css";
+
+html{
+	overflow-x: hidden;
+}
+
+body{
+	background: #1F2427;
+	margin: 0; 
+	padding: 0; 
+	cursor: default; 
+	font-family: 'Roboto', sans-serif; 
+	font-weight: 300;
+	background-size: cover;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+#scroll::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+#scroll::-webkit-scrollbar-button {
+  width: 10px;
+  height: 0px;
+}
+#scroll::-webkit-scrollbar-thumb {
+  background: #792534;
+  border: 0px none #ffffff;
+  border-radius: 2px;
+}
+#scroll::-webkit-scrollbar-thumb:hover {
+  background: #571B25;
+}
+#scroll::-webkit-scrollbar-thumb:active {
+  background: #571B25;
+}
+#scroll::-webkit-scrollbar-track {
+  background: #272727;
+  border: 0px none #ffffff;
+  border-radius: 2px;
+}
+#scroll::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* topbar */
+.topbar{
+	background-color: #792534;
+	width: 100%;
+	height: 60px;
+}
+
+.topbar span{
+	float: left;
+	font-size: 14px;
+	color: white;
+	font-weight: 400;
+	line-height: 60px;
+}
+
+.topbar span a{
+	color: white;
+	text-decoration: none;
+	transition: all 200ms;
+}
+
+.topbar span a:hover{
+	color: rgba(255,255,255,0.7);
+}
+
+a{
+	color: #eee;
+	text-decoration: none;
+	transition: all 200ms;
+}
+
+a:hover{
+	color: #792534;
+}
+
+.section_1{
+	position: relative;
+    width: 100%;
+	height: 100vh;
+    min-height: 775px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background: url('../../img/bodybg.png'), #1F2427;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.section_1 > .content{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0 50px;
+    width: 100%;
+    color: #eee;
+}
+
+.section_1 > .content .logo{
+	width: 100%;
+	height: 194px;
+	background-image: url('../../img/logo.png');
+	background-position: 50%;
+	background-repeat: no-repeat;
+
+}
+
+.section_1 > .content .heading{
+	font-size: 50px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #792534;
+}
+
+.section_2{
+	position: relative;
+	width: 100%;
+	height: auto;
+	background-color: rgba(121,37,52,0.2);
+	font-family: 'Quicksand', sans-serif;
+}
+
+.section_2 > .container > .grid-3 > .title{
+	text-align: center;
+	margin: 40px 10px 10px 10px;
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.section_2 > .container > .grid-3 > span{
+	float: left;
+	text-align: center;
+	margin: 0px 10px 40px 10px;
+	font-size: 14px;
+	font-weight: 300;
+	color: #eee;
+}
+
+.section_3{
+	position: relative;
+	width: 100%;
+	height: auto;
+	background-color: #1A1F21;
+}
+
+.section_3 > .container > .grid-12 > .case{
+	float: left;
+	width: 100%;
+	height: auto;
+	line-height: 40px;
+	color: #eee;
+	font-size: 15px;
+}
